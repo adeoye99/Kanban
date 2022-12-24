@@ -35,17 +35,17 @@ function Sidebar(){
           <p className='text-xs text-left ml-[30px] text-gray-300'>ALL BOARDS (8)</p>
         </div>
         <MenuLink 
-           to = "/platformlaunch"
+           to = "platformlaunch"
            title = "Platform launch"
            onClick = {toggleSidebar}
           />
          <MenuLink 
-           to = "/marketinglaunch"
+           to = "marketinglaunch"
            title = "Marketing Launch"
            onClick = {toggleSidebar}
           />
           <MenuLink 
-           to = "/roadmap"
+           to = "roadmap"
            title = "Road Map"
            onClick = {toggleSidebar}
           />
